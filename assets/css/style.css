@@ -1,0 +1,2278 @@
+@import url(https://fonts.googleapis.com/css?family=lobster);
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url(https://m.media-amazon.com/151images/G/01/AUIClients/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2) format("woff2"), url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rg-8a9db402d8966ae93717c348b9ab0bd08703a7a7._V2_.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: italic;
+    src: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rgit-9cc1bb64eb270135f1adf3a4881c2ee5e7c37be5._V2_.woff2) format("woff2"), url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rgit-a4dc98d644ff2aedd41da3da462f09ffce86eafb._V2_.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 700;
+    src: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_bd-46b91bda68161c14e554a779643ef4957431987b._V2_.woff2) format("woff2"), url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_bd-b605252f87b8b3df5ae206596dac0938fc5888bc._V2_.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_bdit-80ff7aba37dd1ff5a6b90233a19e3a780a96dc2f._V2_.woff2) format("woff2"), url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_bdit-57598ce426a612be5a1d15eee08252668fca5e7a._V2_.woff) format("woff")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.nav-box {
+    float: left;
+    width: 100%;
+    background: #D8D6D6;
+    padding: 8px 0;
+}
+button.btn.btn-theme {
+    background: #1586b4;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+button.btn.btn-theme:hover {
+    background: #ea6f34;
+    color: #fff;
+    transition: 0.8s;
+}
+.nav-icon-box{
+    float: right;
+}
+.nav-icon-box ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-icon-box ul li {    
+    display: inline-block;
+    margin-left: 5px;
+}
+.nav-icon-box ul li a {
+    color: white;
+    font-size: 20px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    background: #0d86b4;
+    border-radius: 100%;
+    height: 35px;
+    display: inline-block;
+    width: 35px;
+    padding: 4px 9px;
+}
+.donate{
+
+}
+.donate a {
+    background-color: #ff6c26;
+    padding: 6px;
+    border-radius: 6px;
+    border-bottom: 2px solid #76c04e;
+    color: #fff;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+.header-box {
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+}
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 5px;
+}
+.logo a:hover {
+
+    text-decoration: none;
+}
+
+.menu{
+    text-align: center;
+        padding: 9px 0;
+}
+.menu-donate {
+    text-align: center;
+    padding: 9px 0;
+}
+.menu label p {
+    display: none;
+}
+.menu img {
+    max-width: 100%;
+    outline: none;
+}
+.menu input[type="checkbox"] {
+    display: none;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    /* text-align: right; */
+    display: inline-block;
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 31px; 
+}
+.menu ul li a{
+    font-size: 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #ff6c26;
+}
+.menu span{
+    color: #fff;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.menu-donate a.donatebtn {
+    text-decoration: none;
+    background: #232f3e none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 50px;
+    font-weight: 500;
+    padding: 0px 23px;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-left: 14px;
+    letter-spacing: 1px;
+}
+.menu-donate a.donatebtn:hover{
+    background: #ff6c00;
+    color: #fff;
+}
+.menu-donate a.donatebtn i {
+    background: rgba(0,0,0,0) url(../images/sprite-img.png) no-repeat scroll -6px -8px;
+    display: inline-block;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: 14px;
+    vertical-align: top;
+    width: 28px;
+}
+
+/***********banner***********/
+
+.banner-box{
+    float: left;
+    width: 100%;
+     position: relative;
+}
+.carousel {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 17%;
+    margin-left: -10px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 37%;
+    margin-right: -10px;
+}
+
+/*****banner end*****/
+
+.form-box-spacer {
+    float: left;
+    width: 100%;
+    padding: 49px 0;
+}
+.box-spacer-center {
+    text-align: center;
+}
+.impact-main-box {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.impact-heading h3 {
+    margin: 0;
+    font-size: 26px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 500;
+    color: #ff6c00;
+    margin-bottom: 20px;
+}
+.impact-heading {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.impact-story {
+    border: dotted 1px black;
+    padding: 10px;
+    margin-top: 17px;
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+}
+.impact-heading h3{
+    text-align: center;
+}
+.contact p {
+    text-align: left;
+    color: #475055;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-bottom: 14px;
+    line-height: 20px;
+    margin-top: 22px;
+    width: 70%;
+    display: inline-block;
+}
+.form-box {
+    border: dotted 1px black;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 22px;
+    text-align: left;
+    display: inline-block;
+}
+.check-box {
+    width: 70%;
+    display: inline-block;
+}
+.child-foem-box {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.child-foem-box p {
+    display: inline-block;
+    margin-left: 27px;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 600;
+}
+button#rzp-button1{
+    background-color: #232f3e;
+    padding: 7px 19px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 600;
+    border-bottom: 2px solid #232f3e;
+    text-transform: capitalize;
+    margin-top: 0px;
+    outline: none;
+
+}
+button#rzp-button1:hover{
+    background: #ea6f34;
+    transition: 0.8s;
+}
+.btn-details4 {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+.btn-details4 a{
+    background-color: #232f3e;
+    padding: 9px 19px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 600; 
+    border-bottom: 2px solid #232f3e;
+}
+.btn-details4 a:hover{
+    text-decoration: none;
+    color: #000;
+    background: #ea6f34;
+    transition: 0.8s;
+}
+.btn-details4 i.fa.fa-chevron-circle-left {
+    margin-right: 7px;
+}
+.contact-box {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 17px;
+}
+label.redio {
+    position: absolute;
+    top: 0;
+}
+
+label#full_name-error {
+    color: #ff0303;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 500;
+}
+label#email-error {
+    color: #ff0303;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 500;
+}
+label#term-error{
+    color: #ff0303;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 500;   
+}
+.value-fild {
+    display: inline-block;
+    margin-left: 14px;
+}
+.child-foem-box input[type="name"], .child-foem-box input[type="email"],.child-foem-box  input[type="text"],select{
+    display: block;
+    width: 100%;
+    margin-bottom: 14px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.child-foem-box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.child-foem-box ul li {
+    display: inline-block;
+    width: 32.8%;
+    margin: 0 0px;
+}
+.child-foem-box select {
+    margin-bottom: 14px;
+}
+.btn-details4 input[type="submit"] {
+    background-color: #232f3e;
+    padding: 7px 19px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 600;
+    border-bottom: 2px solid #232f3e;
+    text-transform: capitalize;
+    margin-top: 18px;
+}
+.btn-details4 input[type="submit"]:hover{
+    background: #ff6c00;
+    color: #fff;
+    text-decoration: none;
+}
+.impact-story {
+    border: dotted 1px black;
+    padding: 10px;
+    margin-top: 17px;
+}
+.impact-story  p {
+    color: #475055;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-bottom: 14px;
+    line-height: 20px;
+}
+.impact-story  p span {
+    font-weight: bold;
+}
+.contact p {
+    color: #475055;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-bottom: 14px;
+    line-height: 20px;
+    margin-top: 22px;
+}
+.contact p span{
+    font-weight: bold;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+
+
+.footer {
+    background-color: rgba(46, 46, 46, 0.9);
+    padding: 30px 0;
+    color: #fff;
+    float: left;
+    width: 100%;
+}
+.log {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    /* height: auto; */
+    text-align: left;
+    margin-top: 25px;
+}
+.log a{
+    display: inline-block;
+}
+.log img{
+    width: 100%;
+}
+.footer-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.footer-menu ul li {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 18px;
+}
+.footer-menu ul li:after {
+    position: absolute;
+    content: " ";
+    width: 2px;
+    height: 14px;
+    background: #6b6b6bd4;
+    top: 4px;
+    left: -2px;
+}
+.footer-menu ul li:first-child:after {
+    display: none;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 9px;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.footer-menu ul li a:hover{
+    color:  #ff6c00;
+    transition: 0.8s;
+}
+.socil-icon ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.socil-icon ul li {    
+    display: inline-block;
+    margin-left: 5px;
+}
+.socil-icon ul li:after{
+    display: none;
+}
+.socil-icon {
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+.socil-icon ul li a {
+    color: white;
+    font-size: 20px;
+    background: #fe6c00;
+    border-radius: 100%;
+    height: 35px;
+    display: inline-block;
+    width: 35px;
+    padding: 4px 11px 2px 9px;
+}
+.socil-icon ul li a:hover{
+    color:  #ff6c00;
+    background: #fff;
+    transition: 0.8s;
+}
+.footer-menu {
+    padding: 0px 0;
+}
+.copy-right p {
+    color: #fff;
+    text-align: right;
+    margin: 0;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-right: 8px;
+}
+/*****aboutsection-box*****/
+.aboutsection-box {
+    float: left;
+    width: 100%;
+    background: url(../images/aboutusbg.png) no-repeat 0 bottom;
+    background-size: cover;
+    min-height: 540px;
+    padding: 45px 0;
+}
+.aboutsection-box .adout-img-box img {
+    border: 6px solid #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    width: 100%;
+}
+.adout-text-box h2{
+    color: #ff6c00;
+    font-size: 28px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.adout-text-box p {
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.adout-text-box ul {
+    margin: 20px 0 15px 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.adout-text-box ul li {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+.adout-text-box ul li a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: top;
+    font-weight: 600;
+}
+.adout-text-box ul li a:hover{
+    color: #ea6f34;
+    transition: 0.8s;
+}
+.adout-text-box ul li a span{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+/****
+.adout-text-box ul{
+margin: 20px 0 15px 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+.adout-text-box ul li{
+   display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 22%;
+}
+.adout-text-box ul li span{
+    display: inline-block;
+    height: 64px;
+    margin-bottom: 6px;
+    text-align: center;
+    vertical-align: bottom;
+    width: 100%;
+}
+.adout-text-box img {
+ width: 100%;
+}
+/*****aboutsection-box*****/
+
+
+
+/***----- testimonialsection----***/
+.testimonialsection {
+    background: url(../images/testimonialbg.jpg) no-repeat 0 0 / cover;
+    float: left;
+    width: 100%;
+    padding: 19px 0 24px 0;
+}
+.testimonialsection h2{
+    color: #ff6c00;
+    font-size: 28px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+
+
+/***----- testimonialsection----***/
+
+/****------  EVENTS  --RESOURCES--------****/
+.events-resources-box {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+
+}
+.events-resources-box h2{
+    color: #ff6c00;
+    font-size: 28px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0;
+}
+/***.events-resources-box span a {
+    color: #ff6c00;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-align: right;
+    float: right;
+    margin-top: 8px;
+    text-decoration: none;
+} 
+.events-resources-box span a i.fa.fa-fw{
+    transition: all .3s ease-in 0s;
+    display: inline-block;
+    font-size: 21px;
+    height: auto;
+    line-height: 15px;
+    margin-left: 1px;
+    margin-top: 3px;
+    vertical-align: top;
+    width: auto;
+}
+.events-resources-box span a:hover i.fa.fa-fw{
+    margin-left: 8px;
+}***/
+
+.eventdl   {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.eventdl .eventdl-rightimgbox {
+    background: #f2f2f2 none repeat scroll 0 0;
+    float: right;
+    padding: 16px;
+    height: 328px;
+    position: relative;
+    width: 52%;
+}
+.eventdl .eventdl-rightimgbox span{
+    border: 6px solid #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    height: 288px;
+    left: -34px;
+    position: absolute;
+    top: 18px;
+    width: 304px;
+
+}  
+.eventdl .eventdl-rightimgbox span img{
+    width: auto;
+}  
+.eventdl-leftbox {
+    background:#232f3e;
+    float: left;
+    height: 328px;
+    padding: 28px 58px 28px 22px;
+    width: 48%;
+}
+.eventdl-leftbox h3{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 6px;
+    padding-bottom: 18px;
+    margin-top: 0;
+}
+.eventdl-leftbox h3 a {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 28px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.eventdl-leftbox h3 a:hover{
+    color:#ff6c00;
+}
+.eventdl-leftbox h6 {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+.eventdl-leftbox p span{
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding: 3px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 170px;
+}
+
+
+.resources-box{
+    float: left;
+    width: 100%;
+}
+.resources-box h3{
+    background: #f2f2f2;
+    font-size: 18px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    margin-top: 11px;  
+}
+.resources-box h3 a{
+    text-decoration: none;
+    color: #232f3e;
+}
+.resources-box h3 a:hover{
+    color:#ff6c00;
+}
+.resources-box .resources-itam-box{
+    float: left;
+    width: 100%;   
+}        
+.impact-report-left {
+    float: left;
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.impact-report-left ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.impact-report-left ul li{
+    display: inline-block;
+    padding-right: 16px;
+}
+.impact-report-left ul li a {
+    color: #a4a5a6;
+    text-decoration: none;
+    display: inline-block;
+}
+.impact-report-left i.fa.fa-list, .impact-report-left i.fa.fa-calendar {
+    margin-right: 8px;
+}
+.impact-report-left ul li a:hover{
+    color: #ff6c00;
+}
+.impact-report-img{
+    border: 3px solid #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 3%;
+    margin-top: -28px;
+    width: 33%;
+}
+.impact-report-img img{
+    width: 100%;
+}
+
+/****------  EVENTS  --RESOURCES------        ****/
+
+
+
+
+/******banner slider****/
+#carousel3d .carousel-3d-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+#carousel3d .carousel-3d-slide.current {
+    background-color: #333;
+    color: #fff;
+}
+#carousel3d .carousel-3d-slide.current span {
+    font-size: 20px;
+    font-weight: 500;
+}
+/******slider****/
+.carousel-3d-slide img {
+    width: 24% !important;
+}
+#carousel3d .carousel-3d-slide.current {
+    background-color: #fff;
+    color: #000;
+}
+
+#carousel3d .carousel-3d-slide.current span .title {
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    vertical-align: top;
+    width: 100px;
+}
+#carousel3d .carousel-3d-slide.current span .title img{
+    width: 100%;
+}
+#carousel3d .carousel-3d-slide.current h6{
+    color: #ff6c00;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.rightsection{
+    color: #54585a;
+    /* display: inline-block; */
+    /* line-height: 21px; */
+    padding-left: 0px;
+    padding-top: 0px;
+    /* position: relative; */
+    vertical-align: top;
+}
+.rightsection em {
+    background: rgba(0,0,0,0) url(//www.careindia.org/wp-content/themes/careindia/css/../images/sprite-img.png) no-repeat scroll -5px -86px;
+    height: 60px;
+    left: 12px;
+    position: absolute;
+    top: -17px;
+    width: 70px;
+}
+.rightsection p {
+    margin-bottom: 12px;
+        font-family: "Amazon Ember", Arial, sans-serif;
+}
+.rightsection a{
+     text-decoration: none;
+     color: #ff6c00;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-align: center;
+}
+.rightsection a i.fa.fa-fw {
+    transition: all .3s ease-in 0s;
+    display: inline-block;
+    font-size: 18px;
+    height: auto;
+    line-height: 15px;
+    margin-left: 1px;
+    margin-top:4px;
+    vertical-align: top;
+    width: auto;
+}
+.rightsection a:hover i.fa.fa-fw{
+    margin-left: 8px;
+}
+.rightsection a:hover{
+    text-decoration: none;
+    color: #ff6c00;
+}
+
+
+/****************about us head******************/
+.about-banner-box {
+    float: left;
+    width: 100%;
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+}
+.about-banner-box img{
+    width: 100%;
+}
+.inner-banner-content {
+    float: left;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 48px;
+    bottom: 40px;
+    text-align: right;
+}
+.title-heading h1{
+    font-size: 60px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 64px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0
+}
+.header-last {
+    float: left;
+    width: 100%;
+    padding: 18px 0;
+}
+.header-last ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header-last ul li{
+    display: inline-block;
+    position: relative;
+    padding-right: 10px;
+}
+.header-last ul li a{
+    text-decoration: none;
+    color: #232f3e;
+    font-size: 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-transform: capitalize;
+}
+.header-last ul li a:hover{
+    color: #f60;
+}
+.header-last ul li:last-child {
+    color: #f60;
+    padding-left: 10px;
+}
+.header-last ul li:after{
+    position: absolute;
+    content: "\f105";
+    top: 0px;
+    color: #54585a;
+    left: -5px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 19px
+
+}
+.header-last ul li:first-child:after{
+    display: none;
+}
+/****************about us******************/
+.about-who-are-you-box {
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0;
+}
+.left-slide-bar {
+    width: 100%;
+    float: left;
+}
+.left-slide-bar h3{
+    font-size: 22px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    background:  #232f3e;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0;
+}
+.manu-slide-bar{
+    float: left;
+    width: 100%;
+    border: 1px solid #d6d7d8;
+    border-top: 0;
+}
+.manu-slide-bar ul{
+    list-style-type: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+.manu-slide-bar ul li{
+    padding: 25px 25px 15px;
+    border-bottom: 1px solid #d6d7d8;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    position: relative;
+}
+.manu-slide-bar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #54585a;
+    line-height: normal;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+}
+.manu-slide-bar ul li a:hover{
+    color: #f60;
+}
+.manu-slide-bar  a img {
+    padding-right: 10px;
+    width: auto;
+}
+.about-right-content{
+    float: left;
+    width: 100%;
+}
+.about-right-content h2{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 18px;
+    color: #232f3e;
+
+}
+.feild-img {
+    background: #fff;
+    padding: 6px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 0 7px 2px #e3e3e3;
+    height: 400px;
+    overflow: hidden;
+}
+.feild-img img{
+    width: 100%;
+}
+.about-right-text{
+    float: left;
+    width: 100%;
+}
+.about-right-text p{
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 24px;
+    color: #54585a;
+}
+.about-right-text .process-img {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px;
+}
+.about-right-text .process-img img{
+    width: auto;
+}
+.about-right-content h4 {
+    font-size: 18px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 34px;
+    letter-spacing: 1px
+}
+.about-right-content p{
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 24px;
+    color: #54585a;
+}
+/*******tab*********/
+
+#exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+.nav-pills li a{
+    min-width: 177px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fe6600 !important;
+}
+.nav-pills li a:hover{
+    text-decoration: none;
+    color: #fe6600 !important;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff !important;
+    background-color: #fe6600 !important;
+    border-bottom: 0;
+    border-left: 0;
+    min-width: 177px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding: 10px 15px !important;
+}
+ul.nav.nav-pills{
+    border-bottom: 3px solid #f60;
+
+
+}
+#exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+    border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+}
+
+#exTab1 .tab-content {
+    color: black;
+    background-color: #f6f6f6;
+    /* padding: 5px 15px; */
+    /* border: 3px solid #f7f7f7; */
+    border-top: 0;
+    padding: 22px 17px;
+}
+.history h2,.goal.quote h2, .vision.quote h2{
+    font-size: 28px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #54585a;
+}
+
+.history .tab-img-field {
+    background: #fff;
+    padding: 6px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 0 7px 2px #e3e3e3;
+    margin-bottom: 18px;
+
+}
+.history .tab-img-field span {
+    display: block;
+    font-size: 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding: 5px 0;
+    text-align: center;
+    background: #f60;
+    color: #fff;
+}
+.history p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 24px;
+    color: #54585a;
+}
+.img-center{
+    float: left;
+    width: 100%;
+}
+.img-center img{
+    width: 100%;
+}
+.quote p {
+    position: relative;
+    padding-left: 32px;
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 29px;
+}
+.quote p .fa-quote-left {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: -2px;
+}
+.quote p i {
+    font-size: 32px;
+    color: #b6b7b8;
+}
+.quote p i.fa-quote-right {
+    margin-top: 2px;
+    vertical-align: text-top;
+}
+.quote p i.fa-quote-right {
+    font-size: 32px;
+    color: #b6b7b8;
+}
+
+.vision.quote p {
+    position: relative;
+    padding-left: 32px;
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 29px;
+    margin-bottom: 45px;
+
+}
+.award-by-year h2{
+
+}
+.vision.quote p .fa-quote-left {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: -2px;
+}
+.vision.quote p i {
+    font-size: 32px;
+
+    color: #b6b7b8;
+}
+.vision.quote p i.fa-quote-right {
+    margin-top: 2px;
+    vertical-align: text-top;
+}
+.vision.quote p i.fa-quote-right {
+    font-size: 32px;
+    color: #b6b7b8;
+}
+.award h2{
+    font-size: 28px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #54585a;
+    margin-bottom: 25px;
+}
+.award-by-year {
+    float: left;
+    width: 100%;
+    border-left: 1px solid #f60;
+    margin-top: 40px;
+}
+.award-by-year h4{
+    font-size: 20px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 40px;
+    color: #fff;
+    background: #f60;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 3px 44px;
+}
+.award-by-year ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin: 30px 0 15px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.award-by-year ul li{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 24px;
+    position: relative;
+    color: #54585a;
+    padding-left: 47px;
+}
+.award-by-year ul li:before{
+    position: absolute;
+    content: " ";
+    background: url(../images/bullet-point.png);
+    z-index: 11111;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+/*** .newsletter-form-box{
+    float: left;
+    width: 100%;
+    vertical-align: top;
+    padding: 55px 0px;
+}
+                .newsletter{
+    float: left;
+    width: 100%;
+}
+.newsletter-left h2{
+    color: #f60;
+    font-size: 28px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.newsletter-left p{
+    font-weight: 300;
+    font-size: 13px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 24px;
+    color: #54585a;
+}
+
+
+
+
+.newsletter-form-box .es_textbox:nth-of-type(2) {
+    width: 38%;
+}
+.newsletter-form-box .es_textbox {
+    display: inline-block;
+    vertical-align: top;
+    border: solid 1px #acaeb0;
+    padding-bottom: 0;
+    height: 36px;
+    width: 36%;
+    float: left;
+}
+.es_textbox {
+    padding-bottom: 10px;
+}
+.newsletter-form-box .es_textbox input {
+    background: no-repeat;
+    padding: 0 12px;
+    border: 0;
+    height: 100%;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 400;
+    color: #54585a;
+    width: 100%;
+}
+.newsletter-form-box .es_button {
+    padding: 0;
+}
+.newsletter-form-box .es_button {
+    background: #fd7a22;
+    border: 0;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    height: 36px;
+    padding: 0 12px;
+    font-size: 18px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    position: relative;
+}
+.newsletter-form-box .es_button:hover{
+    background: #232f3e;
+    color: #fff;
+}
+.newsletter-form-box .es_button input {
+    background: rgba(0,0,0,0) none repeat scroll 0 0;
+    border: medium none;
+    height: 100%;
+    padding: 0 24px 0 12px;
+    width: 100%;
+    font-size: 16px;
+}
+.newsletter-form-box .es_button::after {
+    content: "";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 14px;
+    top: 8px;
+}****/
+/******about us end work start*****/
+
+/*****************contact us out**********************/
+.form-box-contact{
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+.contactus-form-bax{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.contactus-form-bax h2 {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 18px;
+    color: #232f3e;
+}
+.contactus-form-bax input[type="text"], .contactus-form-bax input[type="email"] {
+    width: 100%;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    border: 1px solid #d0d0d0;
+    font-size: 15px;
+    background: none;
+    position: relative;
+}
+.contactus-form-bax textarea {
+    width: 100%;
+    padding: 5px 14px;
+    min-height: 90px;
+    margin-bottom: 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    border: 1px solid #d0d0d0;
+    font-size: 18px;
+    background: none;
+    color: #6f6c6c;
+}
+.contactus-form-bax  button[type="submit"]:hover {
+    background: #f07f1e;
+    color: #000;
+}
+.contactus-form-bax button[type="submit"]:hover {
+    background: #f07f1e;
+    color: #000;
+}
+
+.contactus-form-bax button[type="submit"] {
+    width: 15%;
+    padding: 10px 10px;
+    border-radius: 0 0 0 0;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    background: #303943;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 10px;
+}
+/*****************contact us out**********************/
+/*****************work out**********************/
+.work-banner-box{
+    float: left;
+    width: 100%;
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+}
+.work-banner-box img{
+    width: 100%;
+}
+.inner-banner-content {
+    float: left;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 48px;
+    bottom: 40px;
+    text-align: right;
+}
+.title-heading h1{
+    font-size: 60px;
+    line-height: 64px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0
+}
+
+
+.our-works-section {
+    float: left;
+    width: 100%;
+    background: url(../images/our-work-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    padding-top: 0;
+
+}
+.our-works-section h2{
+    font-size: 48px;
+    color: #232f3e;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-transform: uppercase;
+}
+.our-works-section p{
+    margin-bottom: 18px;
+    font-weight: 300;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #54585a;
+}
+/****.our-work-list{
+    width: 75%;
+    margin: 40px auto 0;
+}
+.our-work-list ul {
+    list-style-type: none;
+    margin: 0;
+    background: url(../images/dot-img.png) repeat-y top center;
+    padding: 60px 0 0;
+    width: 100%;
+}
+
+.our-work-list ul li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 30px 0 45px 0;
+}
+.our-work-list ul li .work-list-img-box{
+
+    padding-top: 123px;
+    padding-left: 9.5%;
+    width: 50%;
+    float: right;
+}
+.our-work-list ul li .content-box {
+    width: 50%;
+    padding-right: 9.5%;
+    float: left;
+    text-align: right;
+}
+.our-work-list ul li .content-box h2 {
+    background: url(../images/yellow-strip.png) no-repeat 0 0;
+    background-size: 100% auto;
+    padding: 35px 20% 80px 5%;
+    font-size: 36px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: -30px;
+}
+.our-work-list ul li .content-box p {
+    color: #23303e;
+    margin-top: -30px;
+}
+.our-work-list ul li .content-box a{
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px 37px;
+    border: 1px solid #23303e;
+    background: #23303e;
+    box-shadow: 0 0 0 3px #fff inset;
+    text-align: center;
+    font-size: 16px;
+    line-height: 42px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.our-work-list ul li .content-box a:hover{
+    text-decoration: none;
+    background: #fe6c00;
+    border-color:#fe6c00;
+}
+.our-work-list ul li  h4{
+    font-size: 48px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 78px;
+    color: #fff;
+    height: 80px;
+    width: 80px;
+    background: #23303e;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+.our-work-list ul li .content-box h2 span {
+    font-size: 20px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 28px;
+    display: block;
+}
+
+.our-work-list ul li:nth-child(even) .work-list-img-box{
+    padding-top: 108px;
+    padding-left: 9.5%;
+    width: 50%;
+    float: left;
+}
+.our-work-list ul li:nth-child(even) .content-box {
+    width: 50%;
+    padding-left: 9.5%;
+    float: right;
+    text-align: left;
+    padding-right: 0;
+}
+.our-work-list ul li:nth-child(even) .content-box h2 {
+    background: url(../images/red-strip.png) no-repeat 0 0;
+    background-size: 100% auto;
+    padding: 35px 5% 80px 20%;
+    margin-left: -30px;
+    margin-right: 0;
+}
+.our-work-list ul li:nth-child(even) .content-box p {
+    color: #fe6c00;
+    margin-top: -30px;
+}
+.our-work-list ul li:nth-child(even) .content-box a{
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px 37px;
+    border: 1px solid #fe6c00;
+    background: #fe6c00;
+    box-shadow: 0 0 0 3px #fff inset;
+    text-align: center;
+    font-size: 16px;
+    line-height: 42px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.our-work-list ul li:nth-child(even) .content-box a:hover{
+    text-decoration: none;
+    background: #232f3e;
+    border-color: #232f3e;
+}
+.our-work-list ul li:nth-child(even)  h4{
+    font-size: 48px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 78px;
+    color: #fff;
+    height: 80px;
+    width: 80px;
+    background:  #fe6c00;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    margin: 0 auto;
+}****/
+
+
+
+@media only screen and (max-width: 1280px){
+.subscribe-right-box .newsletter-form-box {
+    padding: 40px 6px;
+}
+.carousel-caption{
+    top: 51px;
+}
+}
+@media only screen and (max-width: 1199px){
+.innside h1{
+    font-size: 45px;
+}    
+    .carousel-caption{
+        top: 27px;
+    }
+.impact-report-left ul li {
+    display: inline-block;
+    padding-right: 6px;
+}
+.eventdl .eventdl-rightimgbox span {
+    border: 6px solid #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    height: 288px;
+    left: -21px;
+    position: absolute;
+    top: 18px;
+    width: 225px;
+    overflow: hidden;
+}
+.eventdl .eventdl-rightimgbox {
+    background: #f2f2f2 none repeat scroll 0 0;
+    float: right;
+    padding: 16px;
+    height: 328px;
+    position: relative;
+    width: 45%;
+}
+.eventdl-leftbox {
+    background: #232f3e;
+    float: left;
+    height: 328px;
+    padding: 28px 40px 28px 22px;
+    width: 55%;
+}
+.recentblogs-item .imgfiled {
+    float: left;
+    width: 100%;
+}
+.recentblogs-detail {
+    padding: 9px 3px 9px 3px;
+    width: 100%;
+    min-height: auto;
+}
+.recentblogs-item {
+    display: inline-block;
+    margin-bottom: 4px;
+    vertical-align: top;
+    width: 46.5%;
+    margin-top: 13px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.donateform {
+    display: inline-block;
+    padding-top: 5px;
+    vertical-align: top;
+    width: 90%;
+}
+.log a {
+    display: inline-block;
+    margin: 12px 0;
+}
+}
+@media only screen and (max-width: 1024px){
+.innside h1 {
+    font-size: 35px;
+}
+.carousel {
+    height: auto;
+    overflow: hidden;
+}
+}
+@media only screen and (max-width: 991px){
+.logo a img {
+    width: 96%;
+} 
+.logo a{
+    padding: 9px 0;
+}
+.menu label {
+    display: none;
+}   
+.menu ul li {
+    display: inline-block;
+    padding-left: 14px;
+}
+.innside h1 {
+    font-size: 32px;
+}
+.innside h3 {
+    font-size: 20px;
+}    
+.adout-text-box h2{
+    margin: 0;
+}
+.adout-text-box p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 1px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.impactsection{
+    padding: 0;
+}
+.subscribe-right-box h2 {
+    color: #ff6c00;
+    font-size: 19px;
+    margin-bottom: 14px;
+}
+.quick-left-box h2{
+     font-size: 19px;
+}
+.subscribe-right-box .newsletter-form-box {
+    padding: 12px 6px;
+}
+.subscribe-right-box .newsletter-form-box .es_textbox{
+    width: 31%;
+}
+.subscribe-right-box .newsletter-form-box .es_button {
+    padding: 0 6px;
+    font-size: 18px;
+}
+.recentblogs-item {
+    display: inline-block;
+    margin-bottom: 4px;
+    vertical-align: top;
+    width: 45.3%;
+    margin-top: 13px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.eventdl-leftbox h3 a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+}
+.eventdl-leftbox p span {
+    font-size: 12px;
+    padding: 2px 5px;
+    width: 125px;
+}
+.eventdl .eventdl-rightimgbox span {
+    height: 244px;
+    left: -27px;
+    top: 41px;
+    width: 178px;
+    overflow: hidden;
+}
+.impact-report-left ul li {
+    display: inline-block;
+    padding-right: 6px;
+    width: 100%;
+    margin-bottom: 6px;
+}
+.donateform h2 {
+    color: #ff6c00;
+    font-size: 22px;
+}
+}
+@media only screen and (max-width: 800px){
+  .innside h1 {
+    font-size: 28px;
+    line-height: 30px;
+}
+.carousel-caption {
+    top: 20px;
+    width: 100%;
+    left: 0 !important;
+    padding: 10px 89px;
+} 
+.innside h3 {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.eventdl-leftbox h6 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 15px;
+} 
+.footer {
+    text-align: center;
+    padding: 20px 0 25px;
+}
+.footer .col-sm-2{
+    width: 100%;
+    text-align: center;
+}
+.footer-menu {
+    padding: 0px 0;
+    text-align: center;
+}
+.footer .col-sm-10{
+    width: 100%;
+}
+.footer-menu ul {
+    text-align: center;
+}
+.copy-right p{
+    text-align: center;
+}
+.log{
+    text-align: center;
+    margin: 0;
+}
+.socil-icon ul li a {
+    font-size: 18px !important;
+}
+.about-banner-box, .work-banner-box{
+    height: auto;
+}
+}
+@media only screen and (max-width: 767px){
+.logo a img {
+    width: auto;
+}
+.menu label {
+    background-color: #23303e;
+    cursor: pointer;
+    display: block !important;
+    margin: 0;
+}
+    .menu ul li a {
+        display: block;
+        line-height: 28px;
+        border-right: 0;
+    }
+.menu p {
+    display: block !important;
+    text-align: right;
+    margin: 0;
+}
+.menu span {
+    float: left;
+}
+    .menu input[type="checkbox"] {
+        display: block;
+    }
+    #content {
+        background-color: #9acd32;
+    }
+    .menu label, #content {
+        display: inline-block;
+        padding: 8px 9px 6px 9px;
+    }
+    #menu-toggle {
+        display: none;
+    }
+    #menu {
+        background-color: #ef6b02;
+        overflow: hidden;
+        max-height: 0;
+        padding: 0;
+        margin: 0 auto;
+        -webkit-transition: all 0.3s ease;
+    }
+    #menu-toggle:checked + #menu {
+        max-height: 168px;
+    }
+    .menu ul li {
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    text-align: left;
+    border-bottom: 1px solid #23313e;
+}
+.menu ul{
+    display: block;
+}
+   
+}
+@media only screen and (max-width: 767px){
+ .adout-text-box {
+    padding: 40px 0;
+}
+.aboutsection-box {
+    min-height: auto;
+    padding: 25px 0 0;
+}  
+.adout-text-box p {
+    color: #333;
+    font-size: 17px;
+} 
+.adout-text-box h2 {
+    margin-bottom: 17px;
+}
+.subscribe-right-box .newsletter-form-box .es_textbox:nth-of-type(2) {
+    width: 44%;
+}
+.subscribe-right-box .newsletter-form-box {
+    padding: 12px 82px;
+}
+.subscribe-right-box .newsletter-form-box .es_textbox {
+    width: 38%;
+}
+.subscribe-socil-icon h3 {
+    margin-bottom: 11px;
+    margin-top: 13px;
+}
+.eventdl .eventdl-rightimgbox span {
+    height: 261px;
+    left: -27px;
+    width: 98%;
+    top: 33px;
+}
+.eventdl .eventdl-rightimgbox span img {
+    width: 100%;
+}
+.eventdl {
+
+    margin-bottom: 25px;
+}
+.impact-report-left ul li {
+    display: inline-block;
+    padding-right: 6px;
+    width: auto;
+    margin-bottom: 6px;
+}
+.recentblogs-item {
+    width: 47.8%;
+}
+.eventdl-leftbox h3 a {
+    color: #fff;
+    font-size: 27px;
+    line-height: 34px;
+}
+.eventdl-leftbox h6 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 23px;
+}
+.eventdl-leftbox p.date {
+    text-align: center;
+}
+.eventdl-leftbox p span {
+    font-size: 15px;
+    padding: 2px 5px;
+    width: 75%;
+}
+.form-box{
+    width: 100%;
+}
+.check-box{
+    text-align: left;
+}
+.check-box, .btn-details4, .impact-story, .contact-box{
+    width: 100%;
+}
+.form-box-spacer {
+    padding: 12px 0 20px;
+}
+.logo a{
+    width: 100%;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 640px){
+  .innside h1 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.innside h3 {
+    font-size: 12px;
+    margin-bottom: 17px;
+}
+.carousel-caption {
+     padding-top: 0px !important; 
+     padding-bottom: 0px !important; 
+
+}  
+.subscribe-right-box .newsletter-form-box {
+    padding: 12px 17px;
+}
+.eventdl-leftbox h3 a {
+    color: #fff;
+    font-size: 25px;
+    line-height: 34px;
+}
+.recentblogs-item {
+    width: 47.3%;
+}
+.eventdl .eventdl-rightimgbox span img {
+    width: auto;
+}
+}
+@media only screen and (max-width: 500px){
+.innside h1 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.innside {
+    width: 100%;
+    text-align: left;
+}
+.innside h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.innside a{
+    font-size: 13px;
+}  
+.subscribe-right-box .newsletter-form-box .es_textbox {
+    width: 32%;
+}
+.eventdl-leftbox h3 a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+}
+.eventdl-leftbox h6 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 22px;
+}
+.recentblogs-item {
+    width: 46.6%;
+}
+.footer-menu ul li a {
+    font-size: 11px;   
+}
+.copy-right p{
+    font-size: 10px;
+}
+.about-right-content h2{
+    font-size: 28px;
+}
+.about-who-are-you-box {
+    padding: 18px 0;
+    padding-top: 0;
+}
+.about-right-text {
+    margin-top: 10px;
+}
+.title-heading h1{
+    font-size: 30px;
+}
+.inner-banner-content{
+    bottom: 12px;
+}
+.child-foem-box ul li {
+    width: 32.7%;
+    margin: 0 0px;
+}
+}
+
+@media only screen and (max-width: 480px){
+.subscribe-right-box .newsletter-form-box {
+    padding: 12px 7px;
+}
+.eventdl .eventdl-rightimgbox {
+    background: #f2f2f2 none repeat scroll 0 0;
+    float: left !important;
+    padding: 16px !important;
+    height: auto;
+    width: 100%;
+}
+.adout-text-box p {
+    color: #333;
+    font-size: 14px;
+}
+
+.eventdl .eventdl-rightimgbox span img {
+    width: 100% !important;
+}
+.eventdl-leftbox {
+    background: #232f3e;
+    float: left;
+    height: auto;
+    padding: 28px 40px 28px 22px;
+    width: 100%;
+}   
+.eventdl .eventdl-rightimgbox span {
+    height: auto;
+    left: 0;
+    position: relative;
+    width: 98%;
+    display: inline-block;
+    top: 0;
+} 
+.recentblogs-item {
+    width: 46.3%;
+}
+.adout-text-box {
+    padding: 21px 0;
+}
+}
+@media only screen and (max-width: 400px){
+ .impact-report-img {
+    border: 3px solid #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    float: right;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+    width: 100%;
+}
+.adout-text-box h2,  .testimonialsection h2{
+    font-size: 20px;
+}
+.impact-report-left {
+    float: left;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 0;
+}
+.child-foem-box ul li {
+    width: 32.5%;
+    margin: 0 0px;
+}
+.impact-heading h3{
+    font-size: 19px;
+}
+.check-box{
+    font-size: 13px;
+}   
+}
+@media only screen and (max-width: 370px){
+    .adout-text-box ul li a{
+        font-size: 12px;
+    }
+    .child-foem-box p{
+        font-size: 11px;
+    }
+    label {
+    font-size: 13px;
+}
+}
+@media only screen and (max-width: 360px){
+   .child-foem-box ul li {
+    width: 32.4%;
+    margin: 0 0px;
+} 
+}
+@media only screen and (max-width: 320px){
+  .child-foem-box ul li {
+    width: 32.3%;
+    margin: 0 0px;
+}  
+}
